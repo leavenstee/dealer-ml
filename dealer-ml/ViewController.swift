@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Router.sharedRouter.transitionToBlackjackViewController()
+        
+        let vm = BlackjackViewModel()
+        let vc = BlackjackViewController(vm)
+        self.navigationController?.pushViewController(vc, animated: true)
+        
     }
 
 

@@ -15,6 +15,9 @@
 		C3F425202151D034002E3989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F4251E2151D034002E3989 /* LaunchScreen.storyboard */; };
 		C3F4252B2151D034002E3989 /* dealer_mlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F4252A2151D034002E3989 /* dealer_mlTests.swift */; };
 		C3F425362151D034002E3989 /* dealer_mlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F425352151D034002E3989 /* dealer_mlUITests.swift */; };
+		C3F425452151D280002E3989 /* BlackjackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F425442151D280002E3989 /* BlackjackViewController.swift */; };
+		C3F425472151D29D002E3989 /* BlackjackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F425462151D29D002E3989 /* BlackjackViewModel.swift */; };
+		C3F425492151DB0C002E3989 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F425482151DB0C002E3989 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C3F425312151D034002E3989 /* dealer-mlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dealer-mlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F425352151D034002E3989 /* dealer_mlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dealer_mlUITests.swift; sourceTree = "<group>"; };
 		C3F425372151D034002E3989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F425442151D280002E3989 /* BlackjackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackViewController.swift; sourceTree = "<group>"; };
+		C3F425462151D29D002E3989 /* BlackjackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackViewModel.swift; sourceTree = "<group>"; };
+		C3F425482151DB0C002E3989 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				C3F425122151D033002E3989 /* AppDelegate.swift */,
 				C3F425142151D033002E3989 /* ViewController.swift */,
+				C3F425482151DB0C002E3989 /* Router.swift */,
+				C3F425442151D280002E3989 /* BlackjackViewController.swift */,
+				C3F425462151D29D002E3989 /* BlackjackViewModel.swift */,
 				C3F425162151D033002E3989 /* Main.storyboard */,
 				C3F4251C2151D034002E3989 /* Assets.xcassets */,
 				C3F4251E2151D034002E3989 /* LaunchScreen.storyboard */,
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F425152151D033002E3989 /* ViewController.swift in Sources */,
+				C3F425452151D280002E3989 /* BlackjackViewController.swift in Sources */,
 				C3F425132151D033002E3989 /* AppDelegate.swift in Sources */,
 				C3F4251B2151D033002E3989 /* dealer_ml.xcdatamodeld in Sources */,
+				C3F425492151DB0C002E3989 /* Router.swift in Sources */,
+				C3F425472151D29D002E3989 /* BlackjackViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
